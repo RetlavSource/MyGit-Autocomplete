@@ -30,11 +30,23 @@ This work was for fun, when i was tired to do all the times `git branch` and `gi
     - Go to your `HOME` folder `(~/)`, and then:
         - copy there the `git_plugins` folder
         - *copy* and *paste* the code in the `iOS_bash.bash_profile` to your `.bash_profile` file (*if you do not have it, create one*), or other bash profile you use
+        - Mark my code for future updates, for example:
+        ```shell
+        #### START - MyGit-Autocomplete
+        <my code>
+        #### END - MyGit-Autocomplete
+        ```
 
 - ***Linux install:***
     - Go to your `HOME` folder `(~/)`, and then:
         - copy there the `git_plugins` folder
         - *copy* and *paste* the code in the `linux_bash.bashrc` to your `.bashrc` file (*if you do not have it, create one*), or other bash profile you use
+        - Mark my code for future updates, for example:
+        ```shell
+        #### START - MyGit-Autocomplete
+        <my code>
+        #### END - MyGit-Autocomplete
+        ```
 
 ### Thanks and Credits
 The fun of this work was made possible by:
