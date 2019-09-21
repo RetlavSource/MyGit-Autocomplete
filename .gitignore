@@ -1,0 +1,21 @@
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+######################
+# Logs
+######################
+*.log
