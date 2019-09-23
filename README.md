@@ -18,18 +18,18 @@ This work was for fun, when i was tired to do all the times `git branch` and `gi
         - `>`indicates you are ahead
         - `<>` indicates you have diverged
         - `=` indicates that there is no difference
-- Some colour in the *prompt* of iOS terminal
+- Some colour in the *prompt* of macOS terminal
 - `ls` command shows colours for different types of files and folders
 
 ### Notes (more like added info!)
-- Only loads the git identifiers when you open the terminal in a Git repository (no need to overcharge bash when not!), but colour in the *prompt* of iOS terminal loads everytime
-- Tested in ***Linux Ubuntu*** and ***iOS Mojave***
+- Only loads the git identifiers when you open the terminal in a Git repository (no need to overcharge bash when not!), but colour in the *prompt* of macOS terminal loads everytime
+- Tested in ***Linux Ubuntu*** and ***macOS Mojave***
 
 ### Installation
-- ***iOS install:***
+- ***macOS install:***
     - Go to your `HOME` folder `(~/)`, and then:
         - copy there the `git_plugins` folder
-        - *copy* and *paste* the code in the `iOS_bash.bash_profile` to your `.bash_profile` file (*if you do not have it, create one*), or other bash profile you use
+        - *copy* and *paste* the code in the `macOS_bash.bash_profile` to your `.bash_profile` file (*if you do not have it, create one*), or other bash profile you use
         - Mark my code for future updates, for example:
         ```shell
         #### START - MyGit-Autocomplete
