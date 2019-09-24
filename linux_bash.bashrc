@@ -1,5 +1,5 @@
 ### Added PATHS
-PATH=$PATH:~/git_plugins/moreOnIt
+PATH=$PATH
 
 # My aliases
 alias lal='ls -al'
@@ -11,6 +11,10 @@ git_current=$(pwd)
 git_dir="/.git"
 is_a_git=$git_current$git_dir
 if [ -d "$is_a_git" ]; then
+
+    # Added PATH to git related executable files
+    PATH=$PATH:~/git_plugins/moreOnIt
+
     # Enables Git auto-complete
     if [ -f ~/git_plugins/git-completion.bash ]; then
         source ~/git_plugins/git-completion.bash
