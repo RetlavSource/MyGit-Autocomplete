@@ -25,13 +25,13 @@ if [ -d "$is_a_git" ]; then
         source ~/git_plugins/git-prompt.sh
 
 	#Git shortcut info
-	echo -e "\e[01;32m*********************************************\e[00m"
+	echo -e "\e[01;32m******************************************\e[00m"
 	echo -e "\e[01;32m* On a GIT REPOSITORY \e[00m: (\e[01;34mshortcuts info\e[00m)"
 	echo -e "\e[01;32m*** \e[1;34muntracked files \e[0m(\e[31m%\e[0m)"
 	echo -e "\e[01;32m*** \e[1;34munstaged \e[0m(\e[31m*\e[0m) and \e[1;34mstaged \e[0m(\e[32m+\e[0m)"
 	echo -e "\e[01;32m*** \e[1;34msomething is stashed \e[0m(\e[31m$\e[0m)"
 	echo -e "\e[01;32m*** \e[1;34mHEAD and upstream \e[0m- (\e[32m<\e[0m)behind  \e[0m(\e[32m>\e[0m)ahead  \e[0m(\e[32m<>\e[0m)diverged  \e[0m(\e[32m=\e[0m)no difference"
-	echo -e "\e[01;32m*********************************************\e[00m"
+	echo -e "\e[01;32m******************************************\e[00m"
 
         export GIT_PS1_SHOWDIRTYSTATE=1 # Shows unstaged (*) and staged (+)
         export GIT_PS1_SHOWSTASHSTATE=1 # Shows if something is stashed '$'
