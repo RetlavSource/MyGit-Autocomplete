@@ -1,3 +1,4 @@
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/RetlavSource/MyGit-Autocomplete?label=latest%20release)](https://github.com/RetlavSource/MyGit-Autocomplete/releases)
 
 # MyGit - Autocomplete and Info
 ![MyGit - Autocomplete and Info Banner](otherFiles/bashBanner.png)
