@@ -1,7 +1,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/RetlavSource/MyGit-Autocomplete?color=brightgreen&label=latest%20release)](https://github.com/RetlavSource/MyGit-Autocomplete/releases)
 
 # MyGit - Autocomplete and Info
-![MyGit - Autocomplete and Info Banner](otherFiles/bashBanner.png)
+![MyGit - Autocomplete and Info Banner](otherFiles/bashBanner2.png)
 
 This work was for fun, when i was tired to do all the times `git branch` and `git status`, just to know what was untracked, modified, etc, or even to know if i had some work stashed (real problems can happen if you forget your stashed work :grimacing: ...).
 
@@ -21,6 +21,7 @@ This work was for fun, when i was tired to do all the times `git branch` and `gi
         - `=` indicates that there is no difference
 - Some colour in the *prompt* of macOS terminal
 - `ls` command shows colours for different types of files and folders
+- type `gitmenu`to bring up the menu
 
 ### Notes (more like added info!)
 - Only loads the git identifiers when you open the terminal in a Git repository (no need to overcharge bash when not!), but colour in the *prompt* of macOS terminal loads everytime

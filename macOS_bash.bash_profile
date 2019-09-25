@@ -30,13 +30,13 @@ if [ -d "$is_a_git" ]; then
         source ~/git_plugins/git-prompt.sh
 
 	#Git shortcut info
-	echo -e "\033[01;32m******************************\033[00m"
-	echo -e "\033[01;32m* On a GIT REPOSITORY \033[00m: (\033[01;34mshortcuts info\033[00m)"
-	echo -e "\033[01;32m*** \033[1;34muntracked files \033[0m(\033[31m%\033[0m)"
-	echo -e "\033[01;32m*** \033[1;34munstaged \033[0m(\033[31m*\033[0m) and \033[1;34mstaged \033[0m(\033[32m+\033[0m)"
-	echo -e "\033[01;32m*** \033[1;34msomething is stashed \033[0m(\033[31m$\033[0m)"
-	echo -e "\033[01;32m*** \033[1;34mHEAD and upstream \033[0m- (\033[32m<\033[0m)behind  \033[0m(\033[32m>\033[0m)ahead  \033[0m(\033[32m<>\033[0m)diverged  \033[0m(\033[32m=\033[0m)no difference"
-	echo -e "\033[01;32m******************************\033[00m"
+	echo -e "\033[01;32m************************************************************************************\033[00m"
+	echo -e "\033[01;32m******                On a GIT REPOSITORY \033[00m: (\033[01;34mshortcuts info\033[00m)                  \033[01;32m******\033[00m"
+	echo -e "\033[01;32m***   -\033[1;34muntracked files \033[0m(\033[31m%\033[0m)                                                       \033[01;32m***\033[00m"
+	echo -e "\033[01;32m***   -\033[1;34munstaged \033[0m(\033[31m*\033[0m) and \033[1;34mstaged \033[0m(\033[32m+\033[0m)                                               \033[01;32m***\033[00m"
+	echo -e "\033[01;32m***   -\033[1;34msomething is stashed \033[0m(\033[31m$\033[0m)                                                  \033[01;32m***\033[00m"
+	echo -e "\033[01;32m***   -\033[1;34mHEAD and upstream \033[0m- (\033[32m<\033[0m)behind  \033[0m(\033[32m>\033[0m)ahead  \033[0m(\033[32m<>\033[0m)diverged  \033[0m(\033[32m=\033[0m)no difference   \033[01;32m***\033[00m"
+	echo -e "\033[01;32m************************************************************************************\033[00m"
 
         export GIT_PS1_SHOWDIRTYSTATE=1 # Shows unstaged (*) and staged (+)
         export GIT_PS1_SHOWSTASHSTATE=1 # Shows if something is stashed '$'
