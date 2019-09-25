@@ -42,7 +42,7 @@ if [ -d "$is_a_git" ]; then
         export GIT_PS1_SHOWSTASHSTATE=1 # Shows if something is stashed '$'
         export GIT_PS1_SHOWUNTRACKEDFILES=1 # Shows if there're untracked files '%'
         export GIT_PS1_SHOWUPSTREAM="auto" # Shows the difference between HEAD and its upstream.
-	# "<" indicates you are behind,
+	    # "<" indicates you are behind,
     	# ">" indicates you are ahead, 
     	# "<>" indicates you have diverged and 
     	# "=" indicates that there is no difference.
